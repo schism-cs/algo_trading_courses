@@ -2,8 +2,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pymc
 import scipy.stats as stats
-from arviz import InferenceData
-from pymc.backends.base import MultiTrace
 
 plt.style.use("ggplot")
 
@@ -15,7 +13,7 @@ if __name__ == "__main__":
     alpha_post = 22
     beta_post = 52
 
-    iterations = 1000
+    iterations = 50000
 
     basic_model = pymc.Model()
     with basic_model:

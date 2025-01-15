@@ -1,6 +1,9 @@
-yfinance~=0.2.51
-matplotlib~=3.10.0
-pandas~=2.2.3
-seaborn
-bambi
 pymc
+bambi
+scipy
+pandas
+
+yfinance
+
+seaborn
+matplotlib
