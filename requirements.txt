@@ -1,6 +1,6 @@
 pymc
 bambi
-scipy
+scipy==1.12.0
 pandas
 
 yfinance

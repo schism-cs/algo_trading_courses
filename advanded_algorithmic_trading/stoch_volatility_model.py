@@ -1,15 +1,10 @@
-import datetime
-import pprint
-
 import arviz
 import matplotlib.pyplot as plt
 import numpy as np
-import pandas as pd
 import yfinance as yf
 import pymc as pm
 from pandas import DataFrame
 from pymc.distributions.timeseries import GaussianRandomWalk
-import seaborn as sns
 
 
 def retrieve_price_dataframe(ticker, start_date, end_date):
