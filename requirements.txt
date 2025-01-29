@@ -1,4 +1,5 @@
 pymc
+pykalman
 bambi
 scipy==1.12.0
 pandas
