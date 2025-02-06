@@ -8,3 +8,4 @@ yfinance
 
 seaborn
 matplotlib
+sklearn
